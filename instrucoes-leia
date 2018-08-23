@@ -1,0 +1,33 @@
+################################
+Seja bem vindo ao Gerenciador Rokukishi!
+
+Primeiramente para o melhor desempenho e uso da ferramenta, segue abaixo algumas instruções, siga de acordo com o que será considerado.
+
+A ferramenta foi criada para melhor gerenciamento do sistema operacional Linux, assim deve ser iniciada na raiz "/" do sistema:
+Mova o diretório "primeirosemestre" para a raiz, sem mudar o nome do diretório e de nenhum arquivo.
+Se estiver dentro do diretório "primeirosemestre":
+# mv ../primeirosemestre /
+
+Se estiver no diretório anterior ao "primeirosemestre":
+# mv primeirosemestre /
+ou
+# mv ./primeirosemestre /
+
+Para executar a ferramenta deverá utilizar o bash.
+
+Entre no diretório base:
+# cd /primeirosemestre
+Execute o script "rokukishi":
+# ./rokukishi
+ou
+# bash rokukishi
+
+A ferramenta atualizará o repositório automáticamente e irá instalar as ferramentas necessárias para o uso do gerenciador.
+
+iniciará com uma tela de boas vindas.
+Dê ENTER, pronto, seja feliz!
+
+                                                                
+       
+                                                                                              
+- Gabriel Costa -
