@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "deb http://httpredir.debian.org/debian jessie main" > /etc/apt/sources.list
+#echo "deb http://httpredir.debian.org/debian jessie main" > /etc/apt/sources.list
 # Substitui o conteudo do sources pelo melhor link onde pode ser baixado os respositórios
 apt-get update
 # Atualiza os repositórios
@@ -9,6 +9,6 @@ case $? in
 esac
 # Instala o Dialog
 dialog --backtitle "ROKUKISHI PROJECT" --ok-label Continuar --msgbox "Sejam bem vindos ao gerenciador ROKUKISHI" 0 0
-cd /Projeto
-bash /Projeto/.config/menu.sh
+cd /primeirosemestre
+bash /primeirosemestre/.config/menu.sh
 # Chama um script do menu
